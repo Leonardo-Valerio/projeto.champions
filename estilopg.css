@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+:root{
+    --cor0:#A485EE;
+    --cor1: #6637D4;
+    --cor2: #4D2AA1;
+    --cor3: #403754;
+    --cor4: #291654;
+}
+        aside > ul > li{
+            padding: 12px;
+        }
+        article > h1{
+            padding: 10px;
+        }
+        header{
+            padding: 24px;
+            font-family: 'Alata', sans-serif;;
+        }
+        header > h1 {
+            text-align: left;
+            font-size: 30px;
+            
+        }
+        header > h1 > a{
+            color: white;
+            text-decoration: underline;
+            
+        }
+        header > h1 > a:hover{
+            color: #4D2AA1;
+        }
+        main{
+            margin-top: 30px;
+        }
+        main > h1{
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+        aside a{
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            
+        }
+        aside a:hover{
+            text-decoration: underline;
+            color: var(--cor3);
+        }
+        footer > p > a{
+            color: white;
+            
+        }
+        footer > p > a:hover{
+            color: var(--cor0);
+        }
+        footer{
+            text-align: center;
+            background-image: linear-gradient(to bottom, var(--cor3), var(--cor2));
+            color: white;
+            font-family: var(--fonte-nome);
+            padding: 10px;
+        }
